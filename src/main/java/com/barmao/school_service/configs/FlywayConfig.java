@@ -1,4 +1,4 @@
-package com.barmao.school_service.config;
+package com.barmao.school_service.configs;
 
 import org.flywaydb.core.Flyway;
 import org.springframework.beans.factory.annotation.Value;

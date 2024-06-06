@@ -1,4 +1,4 @@
-package com.barmao.school_service.models;
+package com.barmao.school_service.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -21,7 +21,7 @@ public class School {
      * The unique identifier for the school.
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     /**

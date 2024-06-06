@@ -1,6 +1,6 @@
-package com.barmao.school_service.controller;
+package com.barmao.school_service.controllers;
 
-import com.barmao.school_service.models.School;
+import com.barmao.school_service.entities.School;
 import com.barmao.school_service.service.SchoolService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

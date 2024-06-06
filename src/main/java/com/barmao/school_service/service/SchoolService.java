@@ -1,7 +1,7 @@
 package com.barmao.school_service.service;
 
-import com.barmao.school_service.models.School;
-import com.barmao.school_service.repository.SchoolRepository;
+import com.barmao.school_service.entities.School;
+import com.barmao.school_service.repositories.SchoolRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
